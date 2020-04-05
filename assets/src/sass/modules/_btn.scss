@@ -1,0 +1,57 @@
+/*///////////////////////////////
+/////BTN*/
+.btn{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: .7rem 2rem;
+	border-radius: 5px;
+	box-shadow: var(--shadow-light);
+	margin: 2rem 1rem;
+	position: relative;
+
+	&:focus{
+		outline: none;
+		box-shadow: var(--shadow-dark);
+	}
+
+	&::after{
+		content: '';
+		position: absolute;
+		display: block;
+		width: 100%;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		border-radius: 5px;
+		z-index: -1;
+		opacity: 1;
+		transition: all .3s;
+	}
+
+	&:hover::after{
+		transform: scale(1.5);
+		opacity: 0;
+	}
+
+	&-green{
+		color: #fff;
+		background-color: green;
+		
+		&::after{
+			background-color: green;
+		}
+	}
+
+	&-white{
+		color: #000;
+		background-color: #fff;
+		
+		&::after{
+			background-color: #fff;
+		}
+	}
+	&:hover{
+		color: #fff;
+	}
+}

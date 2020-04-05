@@ -1,0 +1,59 @@
+/*Strat Slider*/
+.slider {
+  background: #ccc; }
+
+.slider .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2; }
+
+.slider .carousel-item {
+  background-size: cover;
+  background-position: 90% 20%;
+  max-height: 100%; }
+
+.slider .carousel-one {
+  background-image: url("../img/001.webp"); }
+#myVideo{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%
+}
+.slider .carousel-two {
+  background-image: url("../img/003.jpg"); }
+
+.slider .carousel-three {
+  background-image: url("../img/002.jpg"); }
+
+.slider #myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; }
+
+.slider .text {
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  transform: translateY(10rem);
+  animation: slidein .5s forwards;
+  animation-delay: .5s;
+  animation-duration: 2s;
+  padding: 30vh 6vh;
+  z-index: 41;
+  text-align: right }
+
+.carousel-item .fromright {
+  transform: translateX(-5rem);
+  animation: slidright .5s forwards;
+  animation-delay: .5s;
+  animation-duration: 3s; }
+
+.carousel-control-next, .carousel-control-prev {
+  z-index: 3; }

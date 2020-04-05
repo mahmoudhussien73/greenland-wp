@@ -1,0 +1,52 @@
+/*Choose us*/
+.choose-us {
+  overflow: hidden; }
+
+.choose-us .col-md-6:first-child {
+  background-image: url(../img/choose.jpg);
+  background-size: cover;
+  padding: 0;
+  background-position: 41% 56%; }
+
+.choose-us .col-md-6 img {
+  opacity: .001; }
+
+.choose-us .text {
+  background: var(--bg);
+  color: #fff; }
+
+.choose-us .text h2 {
+  margin: 24px 0;
+  text-transform: uppercase; }
+
+.choose-us .text p {
+  margin-top: 37px; }
+
+.choose-us .text .button {
+  border: 0;
+  background: var(--cl);
+  color: #fff;
+  width: 180px;
+  text-transform: uppercase;
+  padding: 6px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 67px;
+  margin-top: 36px; }
+
+/*State*/
+.stats {
+  margin: 50px 0;
+  color: var(--bg2); }
+.stats i {
+  font-size: 45px; }
+
+.stats h5 {
+  font-weight: bold;
+  font-size: 27px; }
+
+.stats p {
+  text-transform: uppercase;
+  color: var(--cl); }
+/*************************read page************************/
+.read a{color: #000}

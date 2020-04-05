@@ -1,0 +1,31 @@
+:root{
+	--bg2: #005901;
+  	--bg: #444349;
+  	--cl: #7ead85;
+  	--text: -webkit-linear-gradient(left, #024400 26%, #1d9321 87%);
+  	--grad: -webkit-linear-gradient(bottom, #024400 26%, #1d9321 87%);
+  	--shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+*,
+*::after,
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+html{
+	box-sizing: border-box;
+	
+}
+body{
+	font-weight: 300;
+    line-height: 1.6;
+    font-family:  DroidArabicKufiRegular, 'Open Sans Condensed', sans-serif;
+}
+
+ul{list-style: none;}
+a{color: #000;}
+a:hover{
+	text-decoration: none;
+	color: var(--cl);
+}

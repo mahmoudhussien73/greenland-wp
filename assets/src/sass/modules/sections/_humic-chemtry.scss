@@ -1,0 +1,19 @@
+ /************humic-acid*************************/
+  .humic-acid{margin: 3rem 0}
+
+/******Chemistry*************/
+.Chemistry .container{
+    position: relative
+}
+.Chemistry .bord:after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    top: -.8rem;
+    height: 106%;
+    right: 0;
+    background: linear-gradient(172deg, #024400 26%, #1d9321 87%);
+}
+.Chemistry p{
+    padding-top: 3rem
+}

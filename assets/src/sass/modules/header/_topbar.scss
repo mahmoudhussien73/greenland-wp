@@ -1,0 +1,60 @@
+/**************topbar**********************/
+.top-bar {
+    background: var(--bg);
+    color: #fff; }
+
+.top-bar .left-links a{
+    color: #fff
+}
+.top-bar .left-links span{
+  color: #aeafb5;
+    vertical-align: -webkit-baseline-middle;
+}
+.top-bar .left-links .png{
+    background-image: url('../img/all.png');
+    background-position: 39px -3px;
+    background-size: 135px;
+    width: 28px;
+    height: 19px;
+    display: inline-block;
+}
+.top-bar .right-links{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-bar .right-links .lang{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.top-bar .right-links .lang .searcIcon{
+    
+}
+.top-bar .right-links svg{
+    fill: #fff;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.top-bar .right-links svg:hover{
+    fill: #a5a5a5;
+}
+.top-bar .right-links i{
+    background: #297020;
+    border-radius: 50%;
+    padding: 7px;
+    line-height: 2;
+    fill: #fff;
+}
+.top-bar .right-links i:hover{
+    background: #a5a5a5;
+}
+.top-bar .right-links a{
+    color: #fff;
+     cursor: pointer;
+}
+.top-bar .dropdown-menu a{color: #000}
+.top-bar .nav-item{line-height: 1}
+.top-bar span {
+    padding: 0 10px;
+    font-size: 14px; }

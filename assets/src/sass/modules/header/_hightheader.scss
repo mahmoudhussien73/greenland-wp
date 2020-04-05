@@ -1,0 +1,15 @@
+.hightheader{
+    overflow: hidden;
+    position: relative;
+}
+.hightheader .humic-background{
+    width: 35%;
+    margin: auto;
+    position: absolute;
+    left: 33%;
+    bottom: 1rem;
+    transform: matrix(.7, 0, 0, 0.7, 0, 53);
+}
+.hightheader .moving {
+    height: 12rem;
+}

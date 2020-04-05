@@ -1,0 +1,62 @@
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-60px); }
+  100% {
+    transform: translateY(0px); } }
+@keyframes slidright {
+  to {
+    transform: translateX(0); } }
+@keyframes slidein {
+  to {
+    transform: translateY(0); } }
+  /*****************************/
+    .resizeeee{
+      animation: resizeeee 20s forwards;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50% 0px;
+      width: 100%;
+    }
+    @keyframes resizeeee {
+  0% {
+    transform: matrix3d(1.00170, 0, 0, 0, 0, 1.00170, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+    }
+  50% {
+    transform: matrix3d(1.19700, 0, 0, 0, 0, 1.19700, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+    } 
+  100%{
+      transform: matrix3d(1.00150, 0, 0, 0, 0, 1.00150, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); 
+    }
+  }
+  @keyframes line{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes fill{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: white;
+    }
+}
+@keyframes spin {
+  0% {
+  
+       transform: rotate(0deg);
+  }
+  100% {
+   
+       transform: rotate(360deg);
+  }
+}
+@keyframes navfade {
+    from{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

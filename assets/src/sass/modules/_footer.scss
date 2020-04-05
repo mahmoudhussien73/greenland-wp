@@ -1,0 +1,42 @@
+/*Footer*/
+.footer {
+  margin-top: 50px; }
+
+.footer span:first-of-type {
+  color: var(--bg);
+  font-weight: bold;
+  font-size: 40px; }
+
+.footer span:last-of-type {
+  color: var(--cl);
+  font-size: 40px; }
+
+.footer h2 {
+  color: var(--bg);
+  font-size: 21px; }
+  .footer .contact{direction: rtl;text-align: right}
+.footer .contact p {
+  margin-bottom: 0; }
+
+.footer .social {
+  border-top: 1px solid #888;
+  padding: 30px 0; }
+.footer .social .social-links{
+  text-align: right;
+}
+.footer .social i {
+    background: #297020;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+}
+.footer .social i:hover {
+    background: #a5a5a5;
+}
+
+.footer .help a,
+.footer .info a {
+  color: var(--bg); }
+  .footer a{
+    color: #000
+  }
